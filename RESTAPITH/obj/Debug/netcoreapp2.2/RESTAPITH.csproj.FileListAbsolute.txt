@@ -1,0 +1,14 @@
+C:\Users\d3g9\source\repos\RESTAPITH\RESTAPITH\bin\Debug\netcoreapp2.2\RESTAPITH.deps.json
+C:\Users\d3g9\source\repos\RESTAPITH\RESTAPITH\bin\Debug\netcoreapp2.2\RESTAPITH.runtimeconfig.json
+C:\Users\d3g9\source\repos\RESTAPITH\RESTAPITH\bin\Debug\netcoreapp2.2\RESTAPITH.runtimeconfig.dev.json
+C:\Users\d3g9\source\repos\RESTAPITH\RESTAPITH\bin\Debug\netcoreapp2.2\RESTAPITH.dll
+C:\Users\d3g9\source\repos\RESTAPITH\RESTAPITH\bin\Debug\netcoreapp2.2\RESTAPITH.pdb
+C:\Users\d3g9\source\repos\RESTAPITH\RESTAPITH\obj\Debug\netcoreapp2.2\RESTAPITH.csprojAssemblyReference.cache
+C:\Users\d3g9\source\repos\RESTAPITH\RESTAPITH\obj\Debug\netcoreapp2.2\RESTAPITH.csproj.CoreCompileInputs.cache
+C:\Users\d3g9\source\repos\RESTAPITH\RESTAPITH\obj\Debug\netcoreapp2.2\RESTAPITH.RazorAssemblyInfo.cache
+C:\Users\d3g9\source\repos\RESTAPITH\RESTAPITH\obj\Debug\netcoreapp2.2\RESTAPITH.RazorAssemblyInfo.cs
+C:\Users\d3g9\source\repos\RESTAPITH\RESTAPITH\obj\Debug\netcoreapp2.2\RESTAPITH.AssemblyInfoInputs.cache
+C:\Users\d3g9\source\repos\RESTAPITH\RESTAPITH\obj\Debug\netcoreapp2.2\RESTAPITH.AssemblyInfo.cs
+C:\Users\d3g9\source\repos\RESTAPITH\RESTAPITH\obj\Debug\netcoreapp2.2\RESTAPITH.RazorTargetAssemblyInfo.cache
+C:\Users\d3g9\source\repos\RESTAPITH\RESTAPITH\obj\Debug\netcoreapp2.2\RESTAPITH.dll
+C:\Users\d3g9\source\repos\RESTAPITH\RESTAPITH\obj\Debug\netcoreapp2.2\RESTAPITH.pdb
