@@ -13,20 +13,40 @@ namespace RESTAPITH.Model
         {
         }
 
+        public DbSet<AddressProfile> tbEndereco { get; set; }
+        public DbSet<Jobs> tbVagas { get; set; }
+        public DbSet<JobTitles> tbCargos { get; set; }
+        public DbSet<LoginProfile> tbLogin { get; set; }
+        public DbSet<PeopleProfile> tbPessoas { get; set; }
         public DbSet<BaseProfile> BaseProfile { get; set; }
-        public DbSet<Vagas> vagas  { get; set; }
-        public DbSet<Applyances> applyances{ get; set; }
+        public DbSet<EmployeeJobs> tbCargosEmpregado { get; set; }
+        
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            modelBuilder.Entity<EmployeeProfile>()
+            modelBuilder.Entity<AddressProfile>()
                 .HasBaseType<BaseProfile>()
-                .ToTable("Employee");
+                .ToTable("AddressProfile");
 
-            modelBuilder.Entity<EmployerProfile>()
+            modelBuilder.Entity<JobTitles>()
                 .HasBaseType<BaseProfile>()
-                .ToTable("Employer");
+                .ToTable("JobTitles");
 
-         }
+            modelBuilder.Entity<PeopleProfile>()
+                .HasBaseType<BaseProfile>()
+                .ToTable("PeopleProfile");
+
+            modelBuilder.Entity<Jobs>()
+                .HasBaseType<BaseProfile>()
+                .ToTable("Jobs");
+
+            modelBuilder.Entity<LoginProfile>()
+                .HasBaseType<BaseProfile>()
+                .ToTable("LoginProfile");
+
+            modelBuilder.Entity<EmployeeJobs>()
+                .HasBaseType<BaseProfile>()
+                .ToTable("EmployeeJobs");
+        }
 
 
     }

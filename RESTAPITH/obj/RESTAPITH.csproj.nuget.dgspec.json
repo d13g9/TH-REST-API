@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\d3g9\\source\\repos\\RESTAPITH\\RESTAPITH\\RESTAPITH.csproj": {}
+    "D:\\developer\\Android\\Api_TH\\TH-REST-API\\RESTAPITH\\RESTAPITH.csproj": {}
   },
   "projects": {
-    "C:\\Users\\d3g9\\source\\repos\\RESTAPITH\\RESTAPITH\\RESTAPITH.csproj": {
+    "D:\\developer\\Android\\Api_TH\\TH-REST-API\\RESTAPITH\\RESTAPITH.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\d3g9\\source\\repos\\RESTAPITH\\RESTAPITH\\RESTAPITH.csproj",
+        "projectUniqueName": "D:\\developer\\Android\\Api_TH\\TH-REST-API\\RESTAPITH\\RESTAPITH.csproj",
         "projectName": "RESTAPITH",
-        "projectPath": "C:\\Users\\d3g9\\source\\repos\\RESTAPITH\\RESTAPITH\\RESTAPITH.csproj",
-        "packagesPath": "C:\\Users\\d3g9\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\d3g9\\source\\repos\\RESTAPITH\\RESTAPITH\\obj\\",
+        "projectPath": "D:\\developer\\Android\\Api_TH\\TH-REST-API\\RESTAPITH\\RESTAPITH.csproj",
+        "packagesPath": "C:\\Users\\felipen\\.nuget\\packages\\",
+        "outputPath": "D:\\developer\\Android\\Api_TH\\TH-REST-API\\RESTAPITH\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\d3g9\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\felipen\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -27,7 +27,9 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "http://nuget.animaeducacao.com.br/nuget": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/alm-animaeducacao/_packaging/animacore/nuget/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp2.2": {

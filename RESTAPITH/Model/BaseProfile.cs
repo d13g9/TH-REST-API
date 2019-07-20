@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace RESTAPITH.Model
 {
-    public abstract class BaseProfile : Profile
+    public abstract class BaseProfile
     {
         private string name;
         private string telephone;
