@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 namespace RESTAPITH.Model
 {
     /// <summary>
-    /// Cargos - que colaboradores e empregador vão estar associados
+    /// CARGOS - que colaboradores e empregador vão estar associados
     /// </summary>
     public class JobTitles
     {

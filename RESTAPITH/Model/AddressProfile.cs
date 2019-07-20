@@ -5,6 +5,9 @@ using System.Threading.Tasks;
 
 namespace RESTAPITH.Model
 {
+    /// <summary>
+    /// ENDEREÇOS
+    /// </summary>
     public class AddressProfile
     {
         public long IdEndereco { get; set;}

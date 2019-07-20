@@ -8,6 +8,10 @@ namespace RESTAPITH.Model
 {
     public class THContext: DbContext
     {
+        /// <summary>
+        /// CONVERTE PARA BASE DE DADOS
+        /// </summary>
+        /// <param name="options"></param>
         public THContext(DbContextOptions<THContext> options)
            : base(options)
         {

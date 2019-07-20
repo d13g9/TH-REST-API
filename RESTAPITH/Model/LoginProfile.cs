@@ -5,6 +5,9 @@ using System.Threading.Tasks;
 
 namespace RESTAPITH.Model
 {
+    /// <summary>
+    /// ACESSO AO APLICATIVO
+    /// </summary>
     public class LoginProfile
     {
         public long IdPessoa { get; set; }

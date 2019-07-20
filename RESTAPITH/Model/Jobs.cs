@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 namespace RESTAPITH.Model
 {
     /// <summary>
-    /// Vagas - que o empregador vai divulgar
+    /// VAGAS - que o empregador vai divulgar
     /// obs: idVagas deve ser o mesmo Id dentro de jobTitles
     /// </summary>
     public class Jobs

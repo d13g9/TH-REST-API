@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 namespace RESTAPITH.Model
 {
     /// <summary>
-    /// Vinculo entre Colaborador e seus possiveis cargos
+    /// VINCULO entre Colaborador e seus possiveis cargos
     /// </summary>
     public class EmployeeJobs
     {

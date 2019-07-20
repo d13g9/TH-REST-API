@@ -5,6 +5,9 @@ using System.Threading.Tasks;
 
 namespace RESTAPITH.Model
 {
+    /// <summary>
+    /// USUARIOS - cadastro dos dados do usuário
+    /// </summary>
     public class PeopleProfile
     {
         public long IdPessoa { get; set; }
