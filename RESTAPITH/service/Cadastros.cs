@@ -6,13 +6,18 @@ using RESTAPITH.Model;
 
 namespace RESTAPITH.service
 {
-    public class Cadastros
+    public class Cadastros 
     {
         private readonly PeopleProfile _peoples;
+        private readonly AddressProfile _address;
 
-        IList<RESTAPITH.Model.AddressProfile> ICad_Endereco() { }
-        IList<RESTAPITH.Model.PeopleProfile> ICad_Pessoas() {
-            
+        IList<AddressProfile> Cad_Endereco()
+        {
+            return (IList<AddressProfile>)_address;
+        }
+        IList<PeopleProfile> Cad_Pessoas()
+        {
+            return (IList<PeopleProfile>)_peoples;
         }
     }
 }
