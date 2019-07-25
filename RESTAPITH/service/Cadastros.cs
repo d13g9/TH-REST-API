@@ -2,22 +2,30 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+
 using RESTAPITH.Model;
+using RESTAPITH.service.Interface;
 
 namespace RESTAPITH.service
 {
-    public class Cadastros 
+    public class Cadastros : IServices_Cad
     {
         private readonly PeopleProfile _peoples;
         private readonly AddressProfile _address;
 
-        IList<AddressProfile> Cad_Endereco()
+        public IList<AddressProfile> Cad_Endereco()
         {
-            return (IList<AddressProfile>)_address;
+            throw new NotImplementedException();
         }
-        IList<PeopleProfile> Cad_Pessoas()
+
+        public IList<PeopleProfile> Cad_Pessoas()
         {
-            return (IList<PeopleProfile>)_peoples;
+            throw new NotImplementedException();
+        }
+
+        public IList<Jobs> ListaCargos()
+        {
+            throw new NotImplementedException();
         }
     }
 }
